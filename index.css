@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: rgba(169,203,152);
 }
 
 a{
@@ -12,19 +12,25 @@ p{
     text-decoration: none;
 }
 
+.pointer{
+    cursor: pointer;
+}
+
 .background{
-    margin-top: -5%;
-    width: 180%;
-    margin-top: 40%;
-    margin-left: -30%;
+    top: 5%;
+    left: 5%;
+    background-color: white;
+    display: block;
+    width: 90vw;
+    height: 90vh;
     position: fixed;
-    z-index: -10;
-    filter: blur(4px);
-    opacity: 50%;
+    z-index: -5;
+    margin: 0 auto;
+    border-radius: 30px;
 }
 
 .main{
-    margin: 3% 3%;
+    margin: 10%;
 }
 
 .header{
@@ -48,7 +54,7 @@ p{
 
 .items{
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgb(255, 245, 190);
     padding: 10px;
     margin: 4% 0;
     border-radius: 50px;
@@ -63,25 +69,20 @@ p{
 
 .name{
     font-family: 'name', Times, serif;
-    font-size: 30px;
-    color: white;
-    margin-bottom: 0;
-    margin-top: 4%;
-}
-
-.des{
-    font-family: 'des','Times New Roman', Times, serif;
-    font-size: 25px;
-    color: white;
-    margin: 2% 0;
+    font-size: 40px;
+    color: rgba(169,203,152);
+    margin: 5% 0;
+    text-align: center;
 }
 
 .iname{
-    font-size:25px;
-    font-family: 'inames','Times New Roman', Times, serif;
-    height: fit-content;
-    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
     margin-left: 0.5em;
+    letter-spacing: -2;
+    word-spacing: -8;
 }
 
 .round{
@@ -94,62 +95,67 @@ p{
     margin-left: 6%;
 }
 
+#close{
+    display: none;
+    position: absolute;
+    font-family: 'name', Times, serif;
+    font-size: 16px;
+    right: 3%;
+    top: 10%;
+    z-index: 12;
+}
+
+#popcover{
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+#popup{
+    top: 10%;
+    width: 100vw;
+    display: block;
+    z-index: 10;
+    position: absolute;
+    margin: 0;
+}
+
 .insta{
     background-image: url("img//instagram.png");
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+
+.vsco{
+    background-image: url("img//VSCO_Seal.svg.png");
     background-size: 75%;
     background-repeat: no-repeat;
     background-position: center;   
 }
 
-.face{
-    background-image: url("img//facebook.png");
-    background-size: 125%;
-    background-repeat: no-repeat;
-    background-position-x: -11px;   
-    background-position-y: -10px;
-}
-
-.gmail{
-    background-image: url("img//gmail.png");
-    background-size: 70%;
+.manual{
+    background-image: url("img//download.png");
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;   
 }
 
-.vcb{
-    background-image: url("img//VCB.png");
-    background-size: 90%;
-    background-repeat: no-repeat;
-    background-position: center;  
-}
-
-.phone{
-    background-image: url("img//phone-icon-in-black-and-white-telephone-symbol-vector-22968116.jpg");
-    background-size: 110%;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: -5px;  
-}
-
 #avt{
     font-size: 12px;
-    width: 12em;
     height: 12em;
+    width: 12em;
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
     background-image: url("img//z3892319250223_82c8f44cd6d9e09ba2c4734690d40d6d.jpg");
     background-size: 110%;
     background-position-x: 30%;
-    background-position-y: 50%;
+    background-position-y: 30%;
     margin: auto;
     background-repeat: no-repeat;
-}
-
-.avt2{
-    background-image: url("img//avt.png");
-    background-size: 150%;
-    background-repeat: no-repeat;
-    background-position: center;  
 }
 
 #deco{
@@ -169,7 +175,7 @@ p{
     width: 8em;
     height: 8em;
     border-radius: 50%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(169,203,152);
     margin-top: auto;
 }
 

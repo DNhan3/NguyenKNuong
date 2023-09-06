@@ -3,44 +3,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>vuducnhan.dev.lqh</title>
+    <title>NguyenKNuong</title>
 </head>
 <body>
-    <img class="background" src="img//screen-0.jpg"></img>
+    <div class="background"></div>
     <div class="main">
         <div class="header">
+            <p class="name">ALL OF LOVE</p>
             <div class="round" id="deco"><div class="round" id="avt"></div></div>
-            <p class="name">Vũ Đức Nhân</p>
-            <p class="des">✨14/11/06✨</p>
         </div>
+
+        <div id="popcover">
+            <a class="pointer" onclick="hide()" id="close">X</a>
+            <img id="popup" src="img//z4658918609872_ac1cc7f9062315eabad20e343e91585f.jpg">
+        </div>
+
         <div class="ilist">
             
-            <div class="items" style="animation-delay: 100ms;">
-                <a href="https://www.facebook.com/vuducnhan.dev.lqh"><div class="round face" id="ipic"></div></a>
-                <a class="iname" href="https://www.facebook.com/vuducnhan.dev.lqh">Vũ Đức Nhân</a>
+            <div onclick="show()" class="items pointer" style="animation-delay: 100ms;">
+                <a onclick="show()" ><div class="round manual" id="ipic"></div></a>
+                <a onclick="show()" class="iname" >Hướng dẫn sử dụng</a>
             </div>
-            <div class="items" style="animation-delay: 200ms;">
-                <a href="https://www.instagram.com/vu_dnhan.dev/"><div class="round insta" id="ipic"></div></a>
-                <a class="iname" href="https://www.instagram.com/vu_dnhan.dev/">vu_dnhan.dev</a>
+
+            <div class="items pointer" style="animation-delay: 200ms;">
+                <a href="https://vsco.co/kho-ky-uc"><div class="round vsco" id="ipic"></div></a>
+                <a class="iname" href="https://vsco.co/kho-ky-uc">VSCO</a>
             </div>
-            <div class="items" style="animation-delay: 300ms;">
-                <div class="round gmail" id="ipic" onclick="email()"></div>
-                <p style="font-size: 1.25em;" class="iname" onclick="email()">ducnhan141106@gmail.com</p>
+
+            <div class="items pointer" style="animation-delay: 300ms;">
+                <a href="https://www.instagram.com/o_day_ban_ki_niem/?igshid=NzZlODBkYWE4Ng%3D%3D"><div class="round insta" id="ipic"></div></a>
+                <a class="iname" href="https://www.instagram.com/o_day_ban_ki_niem/?igshid=NzZlODBkYWE4Ng%3D%3D">Instagram</a>
             </div>
-            <div class="items" style="animation-delay: 400ms;">
-                <div class="round vcb" id="ipic" onclick="bank()"></div>
-                <a class="iname" onclick="bank()">1034561329</a>
-            </div>
-            <div class="items" style="animation-delay: 500ms;">
-                <div class="round phone" id="ipic" onclick="phone()"></div>
-                <a class="iname" onclick="phone()">0937840446</a>
-            </div>
-            <div class="items" style="animation-delay: 600ms;">
-                <a href="https://dnhan3.github.io/quinhhuongthatdangieww/"><div class="round avt2" id="ipic"></div></a>
-                <a class="iname" href="https://dnhan3.github.io/quinhhuongthatdangieww/">Lê Quỳnh Hương</a>
-            </div>
+            
         </div>
     </div>
 </body>
-<script src="index.js"></script>
+<script src="index.js"></script> 
 </html>

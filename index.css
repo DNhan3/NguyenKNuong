@@ -81,8 +81,9 @@ p{
     font-family:'Courier New', Courier, monospace;
     color: rgb(0, 0, 0);
     margin-left: 0.5em;
-    letter-spacing: -2;
+    letter-spacing: -3.5;
     word-spacing: -8;
+    text-overflow: hidden;
 }
 
 .round{
@@ -112,6 +113,7 @@ p{
     width: 100vw;
     height: 100vh;
     position: absolute;
+    background-color: black;
 }
 
 #popup{
@@ -149,25 +151,12 @@ p{
     height: 12em;
     width: 12em;
     border-radius: 50%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     background-image: url("img//z3892319250223_82c8f44cd6d9e09ba2c4734690d40d6d.jpg");
-    background-size: 110%;
-    background-position-x: 30%;
-    background-position-y: 30%;
+    background-size: 100%;
+    background-position-y: 25%;
     margin: auto;
     background-repeat: no-repeat;
-}
-
-#deco{
-    font-size: 12px;
-    width: 12em;
-    height: 12em;
-    border-color: aliceblue;
-    border-style: solid;
-    border-width: 2px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 #ipic{

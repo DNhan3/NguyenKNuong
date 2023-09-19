@@ -18,8 +18,9 @@ function hide() {
 
 function docshow(){
     document.getElementById('part1').style.animation = "fadeout 2s linear forwards";
-    document.getElementById('part2').style.display = "block";
+    
     document.getElementById('part2').style.animation = "faded 2s 2s linear forwards ";
+    document.getElementById('part2').style.display = "block";
 }
 
 function dochidden(){

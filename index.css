@@ -201,12 +201,12 @@ p{
 
 @font-face {
     font-family: des;
-    src: url("Fonts///UTMBustamalaka.ttf");
+    src: url("Fonts//UTMBustamalaka.ttf");
 }
 
 @font-face {
     font-family: inames;
-    src: url("Fonts///calibri.ttf");
+    src: url("Fonts//Lobster-Regular.ttf");
 }
 
 @keyframes fade {
